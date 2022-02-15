@@ -2,9 +2,9 @@ public class Addition
 {  
     public static void main(String args[])  
     {  
-        int x = Integer.parseInt(args[0]); //first arguments   
-        int y = Integer.parseInt(args[1]); //second arguments  
+        int x = 5; //first arguments   
+        int y = 55; //second arguments  
         int sum = x + y;  
-        System.out.println("The sum of x and y is: " +sum);  
+        System.out.println("The sum of two numbers is: " +sum);  
     }  
 }  
